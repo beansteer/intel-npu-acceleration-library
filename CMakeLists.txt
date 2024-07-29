@@ -62,7 +62,7 @@ elseif(UNIX)
                     set(OV_PLATFORM "linux")
                 endif()
 
-                set(OV_LIBRARY_URL "storage.openvinotoolkit.org/repositories/openvino/packages/nightly/2024.3.0-15502-66093834e38/l_openvino_toolkit_ubuntu22_2024.3.0.dev20240524_x86_64.tgz")
+                set(OV_LIBRARY_URL "https://storage.openvinotoolkit.org/repositories/openvino/packages/nightly/2024.3.0-15502-66093834e38/l_openvino_toolkit_ubuntu22_2024.3.0.dev20240524_x86_64.tgz")
             else()
                 message(FATAL_ERROR "Ubuntu version ${LSB_RELEASE_VERSION} is unsupported")
             endif()
